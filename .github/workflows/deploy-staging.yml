@@ -4,13 +4,13 @@ on:
   pull_request:
     types: [labeled]
 
-env:
+env:<
   IMAGE_REGISTRY_URL: ghcr.io
   ###############################################
-  ### Replace <username> with GitHub username ###
+  ### Replace jcl-acn with GitHub username ###
   ###############################################
-  DOCKER_IMAGE_NAME: <username>-azure-ttt
-  AZURE_WEBAPP_NAME: <username>-ttt-app
+  DOCKER_IMAGE_NAME: jcl-acn-azure-ttt
+  AZURE_WEBAPP_NAME: jcl-acn-ttt-app
   ###############################################
 
 jobs:
