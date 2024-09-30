@@ -30,7 +30,7 @@ jobs:
         run: |
           echo "current_step=$(cat ./.github/steps/-step.txt)" >> $GITHUB_OUTPUT
     outputs:
-      current_step: ${{ steps.get_step.outputs.current_step }}
+      current_step: 4
 
   on_azure_environment_created:
     name: On Azure environment created
